@@ -10,7 +10,9 @@ VibeRo features a voice-coil actuator and force-sensitive resistors for generati
 " target="_blank"><img src="http://img.youtube.com/vi/zBJVJ5MA_d0&t=109s/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
-[Link for the video-description of the project](http://www.youtube.com/watch?v=zBJVJ5MA_d0&t=109s)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/zBJVJ5MA_d0&t=109s/0.jpg)](https://www.youtube.com/watch?v=zBJVJ5MA_d0&t=109s)
+
+[Link] for the video-description of the project:http://www.youtube.com/watch?v=zBJVJ5MA_d0&t=109s
 
 In this repository you can find:
 
@@ -18,4 +20,4 @@ In this repository you can find:
 2. Folder with 3D models of parts used in the device
 
 
-[Link]: (https://ieeexplore.ieee.org/document/8988217)
+[Link]: https://ieeexplore.ieee.org/document/8988217

@@ -6,13 +6,12 @@ This is a vibrotactile hand-held device to achieve haptic cues of different soft
 
 VibeRo features a voice-coil actuator and force-sensitive resistors for generating squeeze forces at fingertips. 
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=zBJVJ5MA_d0&t=109s
-" target="_blank"><img src="http://img.youtube.com/vi/zBJVJ5MA_d0&t=109s/0.jpg" 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=zBJVJ5MA_d0
+" target="_blank"><img src="http://img.youtube.com/vi/zBJVJ5MA_d0/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/zBJVJ5MA_d0&t=109s/0.jpg)](https://www.youtube.com/watch?v=zBJVJ5MA_d0&t=109s)
 
-[Link] for the video-description of the project:http://www.youtube.com/watch?v=zBJVJ5MA_d0&t=109s
+[Link] for the video-description of the project:http://www.youtube.com/watch?v=zBJVJ5MA_d0
 
 In this repository you can find:
 

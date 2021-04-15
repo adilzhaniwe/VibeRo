@@ -9,14 +9,23 @@ Firstly, we have to decide what does a softness of an object mean? What kind of 
 From the article: 
 > Human tactile perception consists of four types of mechanoreceptors, including fast adapting type I (FA-I), fast adapting type II (FA-II), slow adapting type I (SA-I) and slow adapting type II (SA-II), that provide information about physical interactions. SA-I and SA-II detect static forces due to the skin stretch. FA-I and FA-II detect changes at the points of contact, such as vibrations induced by slippage and other types of motions. Interestingly, FA-I and FA-II seem to be responsible for texture discrimination and slip detection. Inspired by this, the state-of-the-art VR controllers leverage voice-coil actuators to provide a more realistic perception of the VE by stimulating FA-I mechanoreceptors.
 
-This mean that when touching a deformable object (soft objects are deformable) 
-Squeezing a soft object filled with granular particles (e.g. coffee grains, salt and sugar) induces sound that is referred to us as “squeeze induced vibrations”. Similar vibrations can be generated using the described above haptic system. Then the tactile stimulus is a lateral oscillation of the voice coil actuator. The frequency of the oscillation is modulated by the rate of change of the applied force so that the desired lateral displacement of the coil is
+This mean that when touching a deformable object (soft objects are deformable) we can feel tiny distortions of the surface and inner structure. Here, we tried to reproduce this principle on a larger (visible) scale using a rubber bag filled with granular particles (e.g. coffee grains, salt and sugar). When squeezing this bag we could feel and see how the particles move inducing sound (“squeeze induced vibrations”). 
+
+So, we set the goal - to generate similar vibrations using a haptic system. Voice coil actuator ([Haptuator Mark II, Tactile Labs]) has been chosen as the main actuation unit of our system. The reasons of this choice:
+- large rated bandwidth (90-1000 Hz)
+- easy control, compatibility with most audio amplifiers
+- compact size (32x9x9 mm) and light weight (9.5g)
+- energy efficiency
+
+Taking advantage of previous research on this topic [1], we've decided to provide tactile stimulus using the technique of vibrational frequency modulation by the rate of change of the applied force (by user's fingers during squeeze). Thus, the desired lateral displacement of the coil is 
 
 <p align="center">
 <img src="https://render.githubusercontent.com/render/math?math=p_h(t) = A \cdot sin(2\pi \cdot M_h \cdot F_N(t))">
 </p>
 
 
+### References
+[1] A. V. Terekhov and V. Hayward, “The brain uses extrasomatic information to estimate limb displacement,” Proc. Roy. Soc. B: Biol. Sci., vol. 282, no. 1814, 2015, Art. no. 20151661.
 
 
 
@@ -29,3 +38,4 @@ Squeezing a soft object filled with granular particles (e.g. coffee grains, salt
 
 
 
+[Haptuator Mark II, Tactile Labs]: http://tactilelabs.com/wp-content/uploads/2012/07/TL002-09-A_v1.01.pdf

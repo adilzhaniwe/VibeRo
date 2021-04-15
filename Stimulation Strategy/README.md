@@ -42,6 +42,15 @@ where
 - <img src="https://render.githubusercontent.com/render/math?math=\omega_0 = M_h \dot F_N(t_0)">
 - <img src="https://render.githubusercontent.com/render/math?math=\phi_0 = 2\pi M_h F_N(t_0)">
 
+These formulas has been interpreted as a code for the control board [Teensy 3.2]. The code is provided in this repository. 
+
+### 3. Trying to reproduce realistic haptic sensations
+
+At the beginning, we were trying to "pick up" appropriate values for coefficient <img src="https://render.githubusercontent.com/render/math?math=M_h"> and thresholds for <img src="https://render.githubusercontent.com/render/math?math=F_N">. At this stage, we were using pure actuator and force sensor (force sensing resistor (FSR), FSR 402, INTERLINK Electronics Inc.) without any casing.  
+
+<p align="center">
+<img src="vibero_1.jpg" width="300" height="400"> <img src="vibero_2.jpg" width="400" height="300">
+</p>
 
 ### References
 [1] A. V. Terekhov and V. Hayward, “The brain uses extrasomatic information to estimate limb displacement,” Proc. Roy. Soc. B: Biol. Sci., vol. 282, no. 1814, 2015, Art. no. 20151661.
@@ -58,3 +67,4 @@ where
 
 
 [Haptuator Mark II, Tactile Labs]: http://tactilelabs.com/wp-content/uploads/2012/07/TL002-09-A_v1.01.pdf
+[Teensy 3.2]: https://www.pjrc.com/store/teensy32.html

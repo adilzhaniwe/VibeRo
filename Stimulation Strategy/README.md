@@ -17,11 +17,20 @@ So, we set the goal - to generate similar vibrations using a haptic system. Voic
 - compact size (32x9x9 mm) and light weight (9.5g)
 - energy efficiency
 
+### 2. The math behind the stimuli
+
+*!!! This section might be useful for understanding the code !!!*
+
 Taking advantage of previous research on this topic [1], we've decided to provide tactile stimulus using the technique of vibrational frequency modulation by the rate of change of the applied force (by user's fingers during squeeze). Thus, the desired lateral displacement of the coil is 
 
 <p align="center">
 <img src="https://render.githubusercontent.com/render/math?math=p_h(t) = A \cdot sin(2\pi \cdot M_h \cdot F_N(t))">
 </p>
+
+where
+- <img src="https://render.githubusercontent.com/render/math?math=M_h"> is the frequency modulation coefficient 
+- <img src="https://render.githubusercontent.com/render/math?math=A"> is the amplitude 
+- <img src="https://render.githubusercontent.com/render/math?math=F_N"> is the normal force applied by user
 
 
 ### References

@@ -32,6 +32,16 @@ where
 - <img src="https://render.githubusercontent.com/render/math?math=A"> is the amplitude 
 - <img src="https://render.githubusercontent.com/render/math?math=F_N"> is the normal force applied by user
 
+For better understanding of why the frequency depends on the *rate of change* of the applied force (how fast a user squeezes an object), let's look at the equation above in details:
+
+<img src="https://render.githubusercontent.com/render/math?math=p_h(t_0 %2B dt) = A sin(2\pi M_h F_N(t_0 %2B dt))">
+<img src="https://render.githubusercontent.com/render/math?math=p_h(t_0 %2B dt) = A sin(2\pi M_h F_N(t_0) %2B 2\pi M_h \dot F_N(t_0)dt)">
+<img src="https://render.githubusercontent.com/render/math?math=p_h(t_0 %2B dt) = A sin(2\pi \omega_0 dt %2B \phi_0)">
+
+where 
+- <img src="https://render.githubusercontent.com/render/math?math=\omega_0 = M_h \dot F_N(t_0)">
+- <img src="https://render.githubusercontent.com/render/math?math=\phi_0 = 2\pi M_h F_N(t_0)">
+
 
 ### References
 [1] A. V. Terekhov and V. Hayward, “The brain uses extrasomatic information to estimate limb displacement,” Proc. Roy. Soc. B: Biol. Sci., vol. 282, no. 1814, 2015, Art. no. 20151661.

@@ -49,7 +49,7 @@ These formulas has been interpreted as a code for the control board [Teensy 3.2]
 At the beginning, we were trying to "pick up" appropriate values for coefficient <img src="https://render.githubusercontent.com/render/math?math=M_h"> and thresholds for <img src="https://render.githubusercontent.com/render/math?math=F_N">. At this stage, we were using pure actuator and force sensor (force sensing resistor (FSR), FSR 402, INTERLINK Electronics Inc.) without any casing.  
 
 <p align="center">
-<img src="vibero_1.jpg" width="300" height="400"> 
+<img src="vibero_1.jpg" width="300" height="300"> 
 </p>
 
 The system is powered by Teensy 3.2 development board that was chosen for its digital-to-analog converter (DAC) pin and compatibility with Arduino IDE software (Teensyduino). 
@@ -62,7 +62,7 @@ The analog output gives the possibility to drive the motor without any hand-writ
 There is also additional tricks regarding FSR connection. The readout circuit based on a voltage divider configuration with a resistor R = 35 kOhm and filtering capacitor C = 200 nF. This sensor exhibits 10% hysteresis and non-linear response.
 
 <p align="center">
-<img src="vibero_2.jpg" width="400" height="300">
+<img src="FSR.PNG" width="500" height="300">
 </p>
 
 For now, there are no any other "hidden" device or circuit components - just follow datasheets of the mentioned components. 

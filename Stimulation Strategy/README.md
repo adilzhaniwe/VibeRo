@@ -59,6 +59,14 @@ The analog output gives the possibility to drive the motor without any hand-writ
 <img src="vibero_2.jpg" width="400" height="300">
 </p>
 
+There is also additional tricks regarding FSR connection. The readout circuit based on a voltage divider configuration with a resistor R = 35 kOhm and filtering capacitor C = 200 nF. This sensor exhibits 10% hysteresis and non-linear response.
+
+<p align="center">
+<img src="vibero_2.jpg" width="400" height="300">
+</p>
+
+For now, there are no any other "hidden" device or circuit components - just follow datasheets of the mentioned components. 
+
 ### References
 [1] A. V. Terekhov and V. Hayward, “The brain uses extrasomatic information to estimate limb displacement,” Proc. Roy. Soc. B: Biol. Sci., vol. 282, no. 1814, 2015, Art. no. 20151661.
 

@@ -49,7 +49,7 @@ These formulas has been interpreted as a code for the control board [Teensy 3.2]
 At the beginning, we were trying to "pick up" appropriate values for coefficient <img src="https://render.githubusercontent.com/render/math?math=M_h"> and thresholds for <img src="https://render.githubusercontent.com/render/math?math=F_N">. At this stage, we were using pure actuator and force sensor (force sensing resistor (FSR), FSR 402, INTERLINK Electronics Inc.) without any casing.  
 
 <p align="center">
-<img src="vibero_1.jpg" width="300" height="400"> 
+<img src="vibero_1.jpg" width="300" height="410"> 
 </p>
 
 The system is powered by Teensy 3.2 development board that was chosen for its digital-to-analog converter (DAC) pin and compatibility with Arduino IDE software (Teensyduino). 
